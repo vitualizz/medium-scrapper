@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "medium/scrapper/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "medium-scrapper"
+  spec.name          = "medium-scrap"
   spec.version       = Medium::Scrapper::VERSION
   spec.authors       = ["Lee Palacios"]
   spec.email         = ["vitualizz@gmail.com"]
