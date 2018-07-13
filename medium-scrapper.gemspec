@@ -9,8 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Lee Palacios"]
   spec.email         = ["vitualizz@gmail.com"]
 
-  spec.summary       = %q{ Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
+  spec.summary       = %q{ Gem with scrapped basic informations of medium.}
   spec.homepage      = "https://github.com/vitualizz/medium-scrapper"
   spec.license       = "MIT"
 
