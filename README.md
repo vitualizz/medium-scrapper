@@ -1,38 +1,40 @@
 # Medium::Scrapper
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/medium/scrapper`. To experiment with that code, run `bin/console` for an interactive prompt.
+Bienvenido, esta gema es una forma facil de sacar los datos basicos de MEDIUM (Nombre del usuario, posts y link del perfil )
 
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
+## Instalación
 
 ```ruby
 gem 'medium-scrapper'
 ```
 
-And then execute:
+Ejecutar:
 
     $ bundle
 
-Or install it yourself as:
+O instálalo tú mismo como:
 
     $ gem install medium-scrapper
 
-## Usage
+## Usabilidad
 
-TODO: Write usage instructions here
+Pues el uso de esta gema es muy facil.
 
-## Development
+```ruby
+Medium::Scrapper.get(username, type)
+```
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+username = El nombre de usuario de tu cuenta de Medium
+type = 
+    ["name" => "Nombre del usuario",
+    "posts" => "Publicaciones de Medium",
+    "url" => "Link del perfil"]
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/medium-scrapper. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+```ruby
+Medium::Scrapper.get("vitualizz","name") # ====> "vitualizz"
+Medium::Scrapper.get("vitualizz","posts") # ====> "Array de posts"
+Medium::Scrapper.get("vitualizz","url") # ====> "https://medium.com/@vitualizz"
+```
 
 ## License
 
