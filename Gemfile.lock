@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    medium-scrap (0.1.0)
+    medium-scrap (0.0.1)
 
 GEM
   remote: https://rubygems.org/
