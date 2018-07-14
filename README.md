@@ -5,7 +5,7 @@ Bienvenido, esta gema es una forma facil de sacar los datos basicos de MEDIUM (N
 ## Instalación
 
 ```ruby
-gem 'medium-scrapper'
+gem 'medium-scrap'
 ```
 
 Ejecutar:
@@ -14,7 +14,7 @@ Ejecutar:
 
 O instálalo tú mismo como:
 
-    $ gem install medium-scrapper
+    $ gem install medium-scrap
 
 ## Usabilidad
 
